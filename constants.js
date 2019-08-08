@@ -266,8 +266,8 @@ function defineColors(){    // Since p5 color() function doesn't work until setu
     COLORS.storm[TROP][10] = color(211,78,153);        // C10 //
     COLORS.storm[TROP][11] = color(255,153,255);       // HYC //
     COLORS.storm[SUBTROP] = {};
-    COLORS.storm[SUBTROP][-1] = color(118,18,255);     // SD //
-    COLORS.storm[SUBTROP][0] = color(18,255,118);      // SS //
+    COLORS.storm[SUBTROP][-1] = color(94,186,255);     // SD //
+    COLORS.storm[SUBTROP][0] = color(0,250,244);       // SS //
     COLORS.storm.extL = "red";
     COLORS.land = [];
     COLORS.land.push([0.85, color(190,190,190)]);

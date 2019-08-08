@@ -249,10 +249,9 @@ const COLORS = {};      // For storing all colors used in the graphics
 function defineColors(){    // Since p5 color() function doesn't work until setup(), this is called in setup()
     COLORS.bg = color(0,127,255);
     COLORS.storm = {};
-    COLORS.storm[EXTROP] = color(192,192,192);
-    COLORS.storm[TROPWAVE] = color(128,204,255);
+    COLORS.storm[EXTROP] = color(192,192,192);         // EX //
+    COLORS.storm[TROPWAVE] = color(128,204,255);       // TW //
     COLORS.storm[TROP] = {};
-    COLORS.storm[TROP][-2] = color(130,130,240);
     COLORS.storm[TROP][-1] = color(94,186,255);        // TD //
     COLORS.storm[TROP][0] = color(0,250,244);          // TS //
     COLORS.storm[TROP][1] = color(255,255,204);        // C1 //
